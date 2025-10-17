@@ -1,0 +1,27 @@
+# 依存関係 (node_modulesは巨大なため除外)
+**/node_modules/
+
+# ログファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js / フロントエンド固有のファイル
+**/.next/
+**/out/
+**/build/
+next-env.d.ts
+*.tsbuildinfo
+
+# 機密情報 (絶対に共有しない)
+**/.env
+**/.env*.local
+*.pem
+
+# OS / エディタ固有のファイル
+.DS_Store
+.vscode/
+
+# Vercel (デプロイサービス) 固有のファイル
+.vercel
